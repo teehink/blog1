@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Noto+Serif+TC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: darkolivegreen;
+    padding: 1rem 0 0 2rem;
+}
+
+h2 {
+    padding: 1rem .5rem;
+    border-top: 3px solid lightslategrey;
+}
+
+p {
+    padding: 0 .5rem .7rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    max-width: 450px;
+    margin-left: 2rem;
+}
+
+input, textarea {
+    min-width: 325px;
+    width: 60%;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: .4rem;
+    margin-top: 1rem;
+}
+
+button {
+    display: inline-block;
+    padding: .5rem .8rem;
+    margin-bottom: 1rem;
+    width: 150px;
+    color: darkolivegreen;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#box {
+    max-width: 600px;
+    min-height: 600px;
+    margin: 2rem auto;
+    background: honeydew;
+}
+
+#post-box {
+    background: whitesmoke;
+    padding: 1rem;
+}
+
+#posts {
+    background: white;
+    margin-bottom: 2rem;
+    padding: .5rem, 1rem;
+}
+
